@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px){
+    img{
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .flex{
+        width: 1000px;
+        height: 50vh;
+        padding-top: 150px;
+    }
+    .flex>div {
+        flex: 1 1 300px;
+    }
+    .flex>div>h1{
+        font-size: 45px
+    }
+    .flex>div>p{
+        margin-bottom: 40px;
+    }
+    .sedans{
+        border-radius: 10px 0px 0px 10px;
+    }
+    .luxury{
+        border-radius: 0px 10px 10px 0px;
+    }
+}
